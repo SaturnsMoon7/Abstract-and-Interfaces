@@ -8,6 +8,7 @@ public class Main
         System.out.println();
 
         Human newHuman = new Human();
+        newHuman.giveBirth();
         newHuman.eat();
         newHuman.move();
 
@@ -20,6 +21,7 @@ public class Main
         System.out.println();
 
         Eagle newEagle = new Eagle();
+        newEagle.layEgg();
         newEagle.eat();
         newEagle.move();
 
